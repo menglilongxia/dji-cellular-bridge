@@ -67,6 +67,11 @@ Mac 跑一个 Go 网关，把这个号码的**短信**和**通话**实时转发�
 
 ## 快速开始
 
+```bash
+git clone https://github.com/menglilongxia/dji-cellular-bridge.git
+cd dji-cellular-bridge
+```
+
 ### 0. 先把软件链路跑通（不需要硬件）
 
 ```bash
@@ -256,3 +261,8 @@ TEAM_ID=你的团队ID DEVICE_UDID=你的设备UDID tools/build-ios.sh
 ## License
 
 [MIT](LICENSE)
+
+---
+
+> 仓库：<https://github.com/menglilongxia/dji-cellular-bridge> ·
+> 发布包：[Releases](https://github.com/menglilongxia/dji-cellular-bridge/releases)
