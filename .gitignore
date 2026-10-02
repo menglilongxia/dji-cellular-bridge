@@ -1,0 +1,22 @@
+# Xcode / iOS
+ios-app/build/
+ios-app/DerivedData/
+ios-app/**/xcuserdata/
+*.xcuserstate
+*.ipa
+*.mobileprovision
+
+# Go build output
+mac-gateway/dist/
+mac-gateway/gatewayd
+
+# Runtime data / logs
+*.log
+history.json
+
+# macOS
+.DS_Store
+
+# Local overrides
+.env
+.env.local

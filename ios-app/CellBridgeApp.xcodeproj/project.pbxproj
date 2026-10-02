@@ -1,0 +1,383 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		727272727272727272727271 /* CellBridgeApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717171 /* CellBridgeApp.swift */; };
+		727272727272727272727272 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717172 /* AppDelegate.swift */; };
+		727272727272727272727273 /* AppState.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717173 /* AppState.swift */; };
+		727272727272727272727274 /* SIPMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717174 /* SIPMessage.swift */; };
+		727272727272727272727275 /* SIPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717175 /* SIPClient.swift */; };
+		727272727272727272727276 /* RTP.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717176 /* RTP.swift */; };
+		727272727272727272727277 /* CallManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717177 /* CallManager.swift */; };
+		727272727272727272727278 /* AudioBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717178 /* AudioBridge.swift */; };
+		727272727272727272727279 /* SMSStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717179 /* SMSStore.swift */; };
+		72727272727272727272727A /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71717171717171717171717A /* ContentView.swift */; };
+		72727272727272727272727D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 71717171717171717171717D /* Assets.xcassets */; };
+		72727272727272727272727E /* GatewayStatus.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71717171717171717171717F /* GatewayStatus.swift */; };
+		72727272727272727272727F /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717180 /* Theme.swift */; };
+		727272727272727272727281 /* HistoryStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717181 /* HistoryStore.swift */; };
+		727272727272727272727282 /* ContactsManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 717171717171717171717182 /* ContactsManager.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		717171717171717171717171 /* CellBridgeApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CellBridgeApp.swift; sourceTree = "<group>"; };
+		717171717171717171717172 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		717171717171717171717173 /* AppState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppState.swift; sourceTree = "<group>"; };
+		717171717171717171717174 /* SIPMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPMessage.swift; sourceTree = "<group>"; };
+		717171717171717171717175 /* SIPClient.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SIPClient.swift; sourceTree = "<group>"; };
+		717171717171717171717176 /* RTP.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RTP.swift; sourceTree = "<group>"; };
+		717171717171717171717177 /* CallManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CallManager.swift; sourceTree = "<group>"; };
+		717171717171717171717178 /* AudioBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioBridge.swift; sourceTree = "<group>"; };
+		717171717171717171717179 /* SMSStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SMSStore.swift; sourceTree = "<group>"; };
+		71717171717171717171717A /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		71717171717171717171717B /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		71717171717171717171717C /* CellBridgeApp.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = CellBridgeApp.entitlements; sourceTree = "<group>"; };
+		71717171717171717171717D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		71717171717171717171717E /* CellBridgeApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CellBridgeApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		71717171717171717171717F /* GatewayStatus.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GatewayStatus.swift; sourceTree = "<group>"; };
+		717171717171717171717180 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		717171717171717171717181 /* HistoryStore.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HistoryStore.swift; sourceTree = "<group>"; };
+		717171717171717171717182 /* ContactsManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContactsManager.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		444444444444444444444446 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		333333333333333333333333 = {
+			isa = PBXGroup;
+			children = (
+				333333333333333333333336 /* CellBridgeApp */,
+				333333333333333333333335 /* Frameworks */,
+				333333333333333333333334 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		333333333333333333333334 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				71717171717171717171717E /* CellBridgeApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		333333333333333333333335 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		333333333333333333333336 /* CellBridgeApp */ = {
+			isa = PBXGroup;
+			children = (
+				717171717171717171717171 /* CellBridgeApp.swift */,
+				717171717171717171717172 /* AppDelegate.swift */,
+				717171717171717171717173 /* AppState.swift */,
+				71717171717171717171717F /* GatewayStatus.swift */,
+				333333333333333333333337 /* SIP */,
+				333333333333333333333338 /* Call */,
+				333333333333333333333339 /* SMS */,
+				333333333333333333333340 /* UI */,
+				333333333333333333333341 /* History */,
+				333333333333333333333342 /* Contacts */,
+				71717171717171717171717B /* Info.plist */,
+				71717171717171717171717C /* CellBridgeApp.entitlements */,
+				71717171717171717171717D /* Assets.xcassets */,
+			);
+			path = CellBridgeApp;
+			sourceTree = "<group>";
+		};
+		333333333333333333333337 /* SIP */ = {
+			isa = PBXGroup;
+			children = (
+				717171717171717171717174 /* SIPMessage.swift */,
+				717171717171717171717175 /* SIPClient.swift */,
+				717171717171717171717176 /* RTP.swift */,
+			);
+			path = SIP;
+			sourceTree = "<group>";
+		};
+		333333333333333333333338 /* Call */ = {
+			isa = PBXGroup;
+			children = (
+				717171717171717171717177 /* CallManager.swift */,
+				717171717171717171717178 /* AudioBridge.swift */,
+			);
+			path = Call;
+			sourceTree = "<group>";
+		};
+		333333333333333333333339 /* SMS */ = {
+			isa = PBXGroup;
+			children = (
+				717171717171717171717179 /* SMSStore.swift */,
+			);
+			path = SMS;
+			sourceTree = "<group>";
+		};
+		333333333333333333333340 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				71717171717171717171717A /* ContentView.swift */,
+				717171717171717171717180 /* Theme.swift */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		333333333333333333333341 /* History */ = {
+			isa = PBXGroup;
+			children = (
+				717171717171717171717181 /* HistoryStore.swift */,
+			);
+			path = History;
+			sourceTree = "<group>";
+		};
+		333333333333333333333342 /* Contacts */ = {
+			isa = PBXGroup;
+			children = (
+				717171717171717171717182 /* ContactsManager.swift */,
+			);
+			path = Contacts;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		222222222222222222222222 /* CellBridgeApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 555555555555555555555556 /* Build configuration list for PBXNativeTarget "CellBridgeApp" */;
+			buildPhases = (
+				444444444444444444444444 /* Sources */,
+				444444444444444444444446 /* Frameworks */,
+				444444444444444444444445 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CellBridgeApp;
+			productName = CellBridgeApp;
+			productReference = 71717171717171717171717E /* CellBridgeApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		111111111111111111111111 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastUpgradeCheck = 1600;
+				TargetAttributes = {
+					222222222222222222222222 = {
+						CreatedOnToolsVersion = 16.0;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 555555555555555555555555 /* Build configuration list for PBXProject "CellBridgeApp" */;
+			compatibilityVersion = "Xcode 16.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 333333333333333333333333;
+			productRefGroup = 333333333333333333333334 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				222222222222222222222222 /* CellBridgeApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		444444444444444444444445 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72727272727272727272727D /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		444444444444444444444444 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				727272727272727272727271 /* CellBridgeApp.swift in Sources */,
+				727272727272727272727272 /* AppDelegate.swift in Sources */,
+				727272727272727272727273 /* AppState.swift in Sources */,
+				727272727272727272727274 /* SIPMessage.swift in Sources */,
+				727272727272727272727275 /* SIPClient.swift in Sources */,
+				727272727272727272727276 /* RTP.swift in Sources */,
+				727272727272727272727277 /* CallManager.swift in Sources */,
+				727272727272727272727278 /* AudioBridge.swift in Sources */,
+				727272727272727272727279 /* SMSStore.swift in Sources */,
+				72727272727272727272727A /* ContentView.swift in Sources */,
+				72727272727272727272727F /* Theme.swift in Sources */,
+				727272727272727272727281 /* HistoryStore.swift in Sources */,
+				727272727272727272727282 /* ContactsManager.swift in Sources */,
+				72727272727272727272727E /* GatewayStatus.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		666666666666666666666661 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Debug;
+		};
+		666666666666666666666662 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CODE_SIGN_STYLE = Automatic;
+				COPY_PHASE_STRIP = NO;
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = s;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				SWIFT_VERSION = 5.0;
+				VERSIONING_SYSTEM = "apple-generic";
+			};
+			name = Release;
+		};
+		666666666666666666666663 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = CellBridgeApp/CellBridgeApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CellBridgeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cellbridge.sip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		666666666666666666666664 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CODE_SIGN_ENTITLEMENTS = CellBridgeApp/CellBridgeApp.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = NO;
+				INFOPLIST_FILE = CellBridgeApp/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.cellbridge.sip;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		555555555555555555555555 /* Build configuration list for PBXProject "CellBridgeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666666666666666666666661 /* Debug */,
+				666666666666666666666662 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		555555555555555555555556 /* Build configuration list for PBXNativeTarget "CellBridgeApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				666666666666666666666663 /* Debug */,
+				666666666666666666666664 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 111111111111111111111111 /* Project object */;
+}
