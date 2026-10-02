@@ -5,6 +5,8 @@ Mac 跑一个 Go 网关，把这个号码的**短信**和**通话**实时转发�
 来电直接走 **CallKit 原生全屏来电界面**——锁屏响铃、系统通话记录、
 蓝牙耳机/车机免提，和普通电话没有区别。
 
+![封面](docs/images/cover.png)
+
 > **English TL;DR** — Turn a DJI LTE dongle (QDC507) plugged into a Mac into a
 > personal SMS/voice gateway for iPhone. `mac-gateway/` is a pure-Go SIP/RTP +
 > AT-command daemon; `ios-app/` is a native SwiftUI SIP client using
